@@ -1,0 +1,17 @@
+img.icon{
+    width: 30px;
+}
+
+.jumbotron {
+    background-color: violet !important;
+    
+}
+
+footer{
+    background-color: hotpink;
+    color: white;
+    height: 2rem;
+    width: 100%;
+    text-align: center;
+}
+
