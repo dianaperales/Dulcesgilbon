@@ -1,17 +1,25 @@
+body{background-image: url("../assets/fonvin.jpg");
+}
+
+
 img.icon{
     width: 30px;
 }
 
 .jumbotron {
-    background-color: violet !important;
+    background-image: url("../assets/ma.jpg") !important;
+font-family: cursive;
     
 }
 
-footer{
-    background-color: hotpink;
-    color: white;
-    height: 2rem;
-    width: 100%;
-    text-align: center;
+footer {
+    padding: 15px 10px;
+    margin-left: 350px;
+    }
+
+p {text-align: center;}
+
+.inframe {
+    background-position: center;
 }
 
