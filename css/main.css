@@ -1,6 +1,26 @@
 body{background-image: url("../assets/fonvin.jpg");
 }
 
+.nav{
+    background-color: #cf7396;
+    
+}
+
+.nav a{
+    color: white!important;
+    text-align: center;
+    display: inline-block!important;
+}
+
+.nav a:hover{
+    color: white!important;
+    font-weight: bolder;
+}
+
+img.nav-logo{
+    max-width: 70px;
+}
+
 
 img.icon{
     width: 30px;
@@ -8,18 +28,76 @@ img.icon{
 
 .jumbotron {
     background-image: url("../assets/ma.jpg") !important;
-font-family: cursive;
-    
+    font-family: cursive; 
+    color:color; 
 }
 
+div.principal{
+    background-color: wheat;
+}
 footer {
-    padding: 15px 10px;
-    margin-left: 350px;
-    }
-
-p {text-align: center;}
-
-.inframe {
-    background-position: center;
+padding: 15px 10px;
+   text-align: center;
+   background-color: #efbbcf;
+   margin-top: 30px;
 }
 
+p {
+    text-align: center;
+}
+
+
+
+.img-resp{
+    width: 100%!important;
+}
+
+img.social{
+ max-width: 50px;
+}
+
+div.copy{
+    background-color: #dd1f9e;
+    padding-top:10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bolder;
+    margin:0;
+    text-align: center;
+}
+div.copy p{
+    margin-bottom: 0;
+}
+
+/*clase para margen inferior tarjetas de catalogo*/
+div.card-gallery{
+    margin-bottom: 2rem;
+}
+
+div.first-row{
+    margin-top: 3rem;
+}
+
+div.about{
+    margin-top: 20px;
+    background-color: thistle;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1rem;
+}
+
+img.logo-about{
+    max-width: 15rem;
+}
+
+div.text-about{
+    padding: 2rem;
+}
+
+
+@media (max-width: 700px) {
+    
+    img.nav-logo{
+        display: none;
+    }
+ }
